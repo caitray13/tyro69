@@ -38,7 +38,7 @@ Note this is the female
 The first step was to solder on the motors. Each motor has three wires. Tin each of the twelve pads (3x4) with a small amount of solder. Trim back the wire casing and solder each wire down onto the pad. Here I came to my first mistake. The tutorial I watched just said to match up the wires to three adjacent pads in whatever combination. In didn't mention that the order in which you place them affects the direction that the motors spin. We need opposite motors to spin the same direction. I have it so that 
 So you need to cross two of the wires for anticlockwise rotation.
 
-
+![motor_rotation](https://https://github.com/caitray13/tyro69/blob/master/motor_rotation.PNG "Logo Title Text 1")
 
 
 
