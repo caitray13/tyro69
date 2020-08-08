@@ -9,6 +9,7 @@ This was my first introduction to the world of drones and where there was a mist
 
 ##### ESC
 Eachine 20A BLHeli_S 4in1 ESC
+
 ESC comes with a 25V 150uF capacitor to be soldered on
 
 
@@ -34,8 +35,10 @@ The SBUS part here is important and leads to adjustments you have to make to the
 Note this is the female
 
 ### The Build
-The first step was to solder on the motors. Each motor has three wires;.... Tin each of the twelve pads (3x4) with a small amount of solder. Trim back the wire casing and solder each wire down onto the pad. Here I came to my first mistake. The tutorial I watched just said to match up the wires to three adjacent pads in whatever combination. In didn't mention that the order in which you place them affects the direction that the motors spin. We need opposite motors to spin the same direction. I have it so that 
+The first step was to solder on the motors. Each motor has three wires. Tin each of the twelve pads (3x4) with a small amount of solder. Trim back the wire casing and solder each wire down onto the pad. Here I came to my first mistake. The tutorial I watched just said to match up the wires to three adjacent pads in whatever combination. In didn't mention that the order in which you place them affects the direction that the motors spin. We need opposite motors to spin the same direction. I have it so that 
 So you need to cross two of the wires for anticlockwise rotation.
+
+
 
 
 
