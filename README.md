@@ -69,7 +69,7 @@ You don't need to know this but in case you're interested:
 
 ### Betaflight  
 Betaflight was the challenge I wasn't expecting. It's flight controlling software. To use it you needs to download several drivers. Best thing to do is watch this video: 
-[![betaflight](https://img.youtube.com/vi/xmaTq4JgTXI&list=PLugTF0N_ig3z6zBsPWqZFJq6JhpAFmS9H&index=2&t=1869s  /0.jpg)](https://www.youtube.com/watch?v=xmaTq4JgTXI&list=PLugTF0N_ig3z6zBsPWqZFJq6JhpAFmS9H&index=2&t=1869s  )
+[![betaflight](https://img.youtube.com/vi/xmaTq4JgTXI&list=PLugTF0N_ig3z6zBsPWqZFJq6JhpAFmS9H&index=2&t=1869s/0.jpg)](https://www.youtube.com/watch?v=xmaTq4JgTXI&list=PLugTF0N_ig3z6zBsPWqZFJq6JhpAFmS9H&index=2&t=1869s)
 https://www.youtube.com/watch?v=xmaTq4JgTXI&list=PLugTF0N_ig3z6zBsPWqZFJq6JhpAFmS9H&index=2&t=1869s  
 The video covers the drivers, flashing the flight controller to latest version of Betaflight, binding the recevier (I have more on that), channel mapping, arming, etc.
 ** It's so tempting but DO NOT skip the arming step. It's a failsafe that I've needed several times. **
