@@ -34,13 +34,38 @@ The SBUS part here is important and leads to adjustments you have to make to the
 Note this is the female  
 
 ### The Build
-The first step was to solder on the motors. Each motor has three wires. Tin each of the twelve pads (3x4) with a small amount of solder. Trim back the wire casing and solder each wire down onto the pad. Here I came to my first mistake. The tutorial I watched just said to match up the wires to three adjacent pads in whatever combination. It didn't mention that the order in which you place them affects the direction that the motors spin. We need opposite motors to spin the same direction.  
+1. Solder on the motors. 
+Each motor has three wires. Tin each of the twelve pads (3x4) with a small amount of solder. Trim back the wire casing and solder each wire down onto the pad. Here I came to my first mistake. The tutorial I watched just said to match up the wires to three adjacent pads in whatever combination. It didn't mention that the order in which you place them affects the direction that the motors spin. It's true you can change this in the software later but tbh just do it now. We need opposite motors to spin the same direction.  
 I have it so that 2 o clock and 8 o clock spin clockwise, whereas the other two spin anticlockwise.  
 So you need to cross two of the wires for anticlockwise rotation.
 
 ![motor_rotation](https://github.com/caitray13/tyro69/blob/master/motor_rotation.PNG)
 
+Another tip is to solder them on the underneath of the ESC since it makes the drone neater. 
 
+2. Solder on the battery lead. 
+Mine came off quite easily in the first test run because it's heavier than the other wires so make sure you do this properly. 
+
+3. Solder on the capacitor. 
+Self explanatory, just make sure you use enough solder since it's heavier. Also try to not keep the soldering iron on the capacitor for too long, it's quite conductive. 
+
+4. Screw the motors.  
+Make sure you screw in each motor **tight**. The motors spin very past and the screws can wiggle loose a bit too easily otherwise. Here you can use electrical tape to stick the wires to the frame or bend them under the ESC - either way, make sure they're out of the way of the props. 
+
+5. Solder on the receiver. 
+I have a FrSky transmitter so I needed a FrSky receiver. SBUS is a popular receiver (RX) protocol. It is a digital signal so it's faster than older ananlogue signals such as PPM. An adjustment needs to be made to the fligh controller and that is to bridge two solder pads together next to where the reciever is plugged in. This tells the Tyro that you're using SBUS. 
+Now you needs to solder the three wires (yellow, red and black) from the receiver cable onto the receiver. Then plug in the cable to the flight controller. 
+You don't need to know this but in case you're interested:
+ - black wire = GND (protective conductor to prevent shock/fire, also called Earth wire)
+ - yellow wire = signal (S.Bus)
+ - red wire = power 
+ 
+ 6. Frame Assembly 
+ First, attach the battery strap. 
+ Second, four long bolts, rubber guards. 
+ Third, ESC and more rubber guards. 
+ Fourth, receiver. 
+ Fifth, flight controller and bolts. 
 
 ### FrSky Transmitter
 
