@@ -39,7 +39,7 @@ Each motor has three wires. Tin each of the twelve pads (3x4) with a small amoun
 I have it so that 2 o clock and 8 o clock spin clockwise, whereas the other two spin anticlockwise.  
 So you need to cross two of the wires for anticlockwise rotation.
 
-![motor_rotation](https://github.com/caitray13/tyro69/blob/master/motor_rotation.PNG)
+![motor_rotation](https://github.com/caitray13/tyro69/blob/master/images/motor_rotation.PNG)
 
 Another tip is to solder them on the underneath of the ESC since it makes the drone neater. 
 
